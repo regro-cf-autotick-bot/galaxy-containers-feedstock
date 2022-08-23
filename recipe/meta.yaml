@@ -23,6 +23,8 @@ requirements:
     - galaxy-util >={{ galaxy_version }}
   run:
     - galaxy-util >={{ galaxy_version }}
+    - typing_extensions
+    - importlib_resources
     - python >=3.6
     - requests
 
